@@ -43,13 +43,6 @@ OCR technology allows Medscripe to read text from images, converting the text in
 2. Open the project in Android Studio.
 3. Build and run the app on your Android device or emulator.
 
-## Contributing
-
-We welcome contributions to improve Medscripe. If you have any suggestions or feature requests, please create an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Aim
 
