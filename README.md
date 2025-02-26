@@ -9,12 +9,35 @@ Medscripe is a smart Android app that helps you manage your health by transcribi
 
 Medscripe makes managing your medications easier and safer. It uses advanced image recognition technology to read prescriptions, extract vital information like medication names, dosages, and instructions, and then offers tailored precautions to ensure you're using your medication correctly.
 
+## Aim
+
+The Prescription Management App aims to revolutionize how individuals, especially the elderly and busy adults, manage their prescriptions. By utilizing AI-powered technologies like Convolutional Neural Networks (CNN) and TensorFlow, the app allows users to scan handwritten prescriptions, convert them into digital text, and receive important medication instructions and reminders.
+
+## Motivation
+
+Many individuals, particularly the elderly or those with visual impairments, struggle to read and understand handwritten prescriptions. Misinterpretation of medication details can lead to health risks and missed doses. Our goal is to reduce medication errors, increase accessibility, and make prescription management more efficient through an intuitive mobile app.
+
 ## How It Works
 
 1. **Upload a Prescription Image:** Take a picture of your prescription and upload it to the app.
 2. **Prescription Transcription:** The app uses Optical Character Recognition (OCR) to read and extract all the relevant details like the medicine name, dosage, and any other important info written on the prescription.
 3. **Precautionary Suggestions:** After transcribing the prescription, Medscripe uses machine learning models to analyze the data and offer customized safety tips and precautions to help you take your medication properly.
 
+## Target Audience
+
+- **Elderly Patients:** Who struggle with reading prescriptions or remembering medication instructions.
+- **Busy Adults:** Who need quick access to their prescriptions and medication instructions.
+- **Visually Impaired Individuals:** Who benefit from converting handwritten prescriptions into readable digital text.
+- **Caregivers:** Who manage medication for elderly or dependent individuals.
+
+## Features
+
+- **Prescription Scanning:** Users can scan prescriptions with their phone camera.
+- **AI-Powered Text Recognition:** Converts handwritten prescriptions into digital text using CNN and TensorFlow.
+- **Medication Instructions:** Provides users with accurate dosage and medication instructions.
+- **Reminders:** Allows users to set medication reminders for improved adherence.
+- **Secure Storage:** Users can store prescriptions digitally for easy access and sharing.
+- **Accessibility:** Designed with an elderly-friendly interface and options for visually impaired users.
 ## Technologies Behind Medscripe
 
 ### Android SDK
@@ -43,30 +66,6 @@ OCR technology allows Medscripe to read text from images, converting the text in
 2. Open the project in Android Studio.
 3. Build and run the app on your Android device or emulator.
 
-
-## Aim
-
-The Prescription Management App aims to revolutionize how individuals, especially the elderly and busy adults, manage their prescriptions. By utilizing AI-powered technologies like Convolutional Neural Networks (CNN) and TensorFlow, the app allows users to scan handwritten prescriptions, convert them into digital text, and receive important medication instructions and reminders.
-
-## Motivation
-
-Many individuals, particularly the elderly or those with visual impairments, struggle to read and understand handwritten prescriptions. Misinterpretation of medication details can lead to health risks and missed doses. Our goal is to reduce medication errors, increase accessibility, and make prescription management more efficient through an intuitive mobile app.
-
-## Target Audience
-
-- **Elderly Patients:** Who struggle with reading prescriptions or remembering medication instructions.
-- **Busy Adults:** Who need quick access to their prescriptions and medication instructions.
-- **Visually Impaired Individuals:** Who benefit from converting handwritten prescriptions into readable digital text.
-- **Caregivers:** Who manage medication for elderly or dependent individuals.
-
-## Features
-
-- **Prescription Scanning:** Users can scan prescriptions with their phone camera.
-- **AI-Powered Text Recognition:** Converts handwritten prescriptions into digital text using CNN and TensorFlow.
-- **Medication Instructions:** Provides users with accurate dosage and medication instructions.
-- **Reminders:** Allows users to set medication reminders for improved adherence.
-- **Secure Storage:** Users can store prescriptions digitally for easy access and sharing.
-- **Accessibility:** Designed with an elderly-friendly interface and options for visually impaired users.
 
 ## Technologies Used
 
