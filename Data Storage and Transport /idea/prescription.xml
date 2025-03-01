@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".SignIn">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@color/white">
+
+        <!-- Top Image -->
+        <ImageView
+            android:id="@+id/imgIllustration"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:contentDescription="@string/todo"
+            android:scaleType="fitCenter"
+            android:src="@drawable/pg4"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Name Field -->
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:autofillHints="Ayushi"
+            android:hint="@string/Name"
+            android:background="@drawable/border"
+            android:inputType="textPersonName"
+            android:padding="20dp"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"/>
+
+        <!-- Gender Field -->
+        <EditText
+            android:id="@+id/etGender"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:autofillHints="no"
+            android:hint="@string/Gender"
+            android:background="@drawable/border"
+            android:inputType="textAutoCorrect"
+            android:padding="20dp"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"/>
+
+        <!-- Age Field -->
+        <EditText
+            android:id="@+id/etAge"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:autofillHints="no"
+            android:hint="@string/age"
+            android:background="@drawable/border"
+            android:inputType="textAutoCorrect"
+            android:padding="20dp"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"/>
+
+        <!-- Proceed Button -->
+        <Button
+            android:id="@+id/btnProceed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/proceedd"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:textSize="16sp"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"
+            android:layout_gravity="end"/>
+
+    </LinearLayout>
+
+</ScrollView>
