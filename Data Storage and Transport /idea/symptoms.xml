@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".Symptoms">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:background="#F7D4DA">
+
+        <!-- Symptoms Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/symptoms"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:textColor="#000000"/>
+
+        <!-- Checkbox List -->
+        <CheckBox
+            android:id="@+id/chkFever"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fever"
+            android:textColor="#000000"/>
+
+        <CheckBox
+            android:id="@+id/chkFatigue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fatigue"
+            android:textColor="#000000"/>
+
+        <CheckBox
+            android:id="@+id/chkHeadache"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/headache"
+            android:textColor="#000000"/>
+
+        <CheckBox
+            android:id="@+id/chkCough"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cough"
+            android:textColor="#000000"/>
+
+        <CheckBox
+            android:id="@+id/chkSoreThroat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sore_throat"
+            android:textColor="#000000"/>
+
+        <CheckBox
+            android:id="@+id/chkNausea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nausea"
+            android:textColor="#000000"/>
+
+        <CheckBox
+            android:id="@+id/chkInsomnia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/insomnia"
+            android:textColor="#000000"/>
+
+        <!-- Other Symptoms Input -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/other"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"/>
+
+        <EditText
+            android:id="@+id/etOtherSymptoms"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:hint="@string/enter_other_symptoms"
+            android:background="@android:drawable/editbox_background"
+            android:padding="10dp"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:autofillHints="otherSymptom"
+            android:inputType="text"/>
+
+        <Button
+            android:id="@+id/btnProceedSymptoms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/proceeded"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:backgroundTint="#FF4081"
+            android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
+</ScrollView>
