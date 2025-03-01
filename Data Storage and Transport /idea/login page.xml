@@ -1,1 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="20dp"
+android:background="#F7D4DA"
+tools:context=".login">
 
+<!-- Top Bar -->
+<View
+    android:layout_width="match_parent"
+    android:layout_height="20dp"
+    android:background="#F55467"/>
+
+<!-- Title -->
+<TextView
+    android:id="@+id/tvLogin"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/login"
+    android:textSize="26sp"
+    android:textStyle="bold"
+    android:textColor="#000000"
+    android:layout_marginTop="20dp"/>
+
+<!-- Illustration -->
+<ImageView
+    android:id="@+id/ivIllustration"
+    android:layout_width="300dp"
+    android:layout_height="250dp"
+    android:layout_gravity="center_horizontal"
+    android:src="@drawable/newimage"
+    android:scaleType="fitCenter"
+    android:layout_marginTop="20dp"
+    android:contentDescription="@string/image_description"/>
+
+<!-- Email Input -->
+<EditText
+    android:id="@+id/etEmail"
+    android:layout_width="200dp"
+    android:layout_height="50dp"
+    android:hint="@string/email"
+    android:paddingStart="10dp"
+    android:paddingEnd="10dp"
+    android:inputType="textEmailAddress"
+    android:textSize="16sp"
+    android:fontFamily="sans-serif"
+    android:autofillHints="emailAddress"
+    android:layout_marginTop="20dp"
+    android:background="@drawable/border"
+    android:textColor="#444444"
+    android:backgroundTint="#F7D4DA"/>
+
+<!-- Password Input -->
+<EditText
+    android:id="@+id/etPassword"
+    android:layout_width="200dp"
+    android:layout_height="50dp"
+    android:hint="@string/password"
+    android:paddingStart="10dp"
+    android:paddingEnd="10dp"
+    android:inputType="textPassword"
+    android:textSize="16sp"
+    android:fontFamily="sans-serif"
+    android:autofillHints="password"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/border"
+    android:textColor="#444444"
+    android:backgroundTint="#F7D4DA"/>
+
+<!-- Forgot Password -->
+<TextView
+    android:id="@+id/tvForgotPassword"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:text="@string/forgot_password"
+    android:textColor="#444444"
+    android:textSize="12sp"/>
+
+<!-- Proceed Button -->
+<Button
+    android:id="@+id/btnProceed"
+    android:layout_width="wrap_content"
+    android:layout_height="50dp"
+    android:text="@string/proceed"
+    android:textSize="16sp"
+    android:textColor="@android:color/white"
+    android:backgroundTint="#F55467"
+    android:layout_gravity="center"
+    android:layout_marginTop="20dp"/>
+</LinearLayout>
